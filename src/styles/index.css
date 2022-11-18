@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 200px;
+    height: 600px;
+    background:black;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.red, .yellow, .green{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 45%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.light{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+}
